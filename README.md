@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Prepare
+- [Truffle](https://www.trufflesuite.com/docs/truffle/getting-started/installation)
+- [Ganache](https://www.trufflesuite.com/ganache)
+- [Metamask](metamask.io)
+
+## Build project
+```sh
+$ yarn
+$ truffle compile
+$ truffle migrate --network development
+$ yarn start
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
